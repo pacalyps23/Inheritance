@@ -1,4 +1,4 @@
-package garcia.luis.superhumans;
+package garcia.luis.classmanager;
 
 /**
  * Created by luisgarcia on 5/2/17.
@@ -6,8 +6,19 @@ package garcia.luis.superhumans;
 public class Product
 {
     private double price;
-    private int id;
+    private int id = 0;
     private int quantity;
+
+    public Product()
+    {
+    }
+
+    public Product(double price, int id, int quantity)
+    {
+        this.price = price;
+        this.id = id;
+        this.quantity = quantity;
+    }
 
     public void setPrice(double price)
     {
