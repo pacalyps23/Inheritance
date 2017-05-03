@@ -11,6 +11,7 @@ public class Main
         SuperHuman paco = new SuperHuman();
         Human bob = new Human("Bob", 23, Gender.MALE, "Nerd", "1104 N Market St");
         SuperHuman jade = new SuperHuman("Jade", 44, Gender.FEMALE, "Waitress", "22 Saucy Rd", Personality.BAD, "JUnit", "Single Reponsibility");
+
         paco.setName("Paco");
         paco.setAge(31);
         paco.setGender(Gender.MALE);
