@@ -12,6 +12,12 @@ public class ATM
         SavingsAccount bob = new SavingsAccount();
 
         elCerro.createAccount(1, "El Cerro");
+        elCerro.addMoney(4344);
+        System.out.println(elCerro.maintainMin());//check if wee can withdraw
+        elCerro.addMoney(6663);
+        elCerro.withdraw(100);///now we can withdraw
+        System.out.println(elCerro.getBalance());
+
 
     }
 }
