@@ -7,7 +7,7 @@ public abstract class Account
 {
     public abstract void closeAccount();
     private static int id;
-    private int balance;
+    private double balance;
     private String name;
     ;
     public void createAccount(int id, String name)

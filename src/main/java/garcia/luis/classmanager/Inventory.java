@@ -58,10 +58,10 @@ public class Inventory {
         for(int i = 0; i < myInventory.size(); i++)
         {
             System.out.println("ID: " + myInventory.get(i).getId());
-            System.out.println("Price: " + myInventory.get(i).getPrice());
+            System.out.println("Price: $" + myInventory.get(i).getPrice());
             System.out.println("Quantity: " + myInventory.get(i).getQuantity());
-            System.out.println("Sum: " + sumOfProducts(myInventory.get(i)));
-            System.out.println(sumOfAllProducts());
+            System.out.println("Sum: $" + sumOfProducts(myInventory.get(i)));
+            System.out.println("Sum of Inventory: $" + sumOfAllProducts());
             System.out.println();
         }
     }
