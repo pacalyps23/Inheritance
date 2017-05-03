@@ -5,12 +5,14 @@ package garcia.luis.bankaccountmanager;
  */
 public abstract class Account
 {
-    public abstract void closeAccount(int id);
+    public abstract void closeAccount();
     private static int id;
     private int balance;
+    private String name;
     ;
-    public void createAccount(int id)
+    public void createAccount(int id, String name)
     {
+        this.name = name;
         this.id = id;
         balance = 0;
 
@@ -21,7 +23,7 @@ public abstract class Account
         return balance;
     }
 
-    public void addMoney(int amount)
+    public void addMoney(double amount)
     {
         balance += amount;
     }
