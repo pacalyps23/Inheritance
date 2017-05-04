@@ -31,28 +31,28 @@ public class UserInput
 
         public Pet matchPet (String petType) //create pets to add
         {
-            //Pet pet;
+            Pet pet;
             switch (petType.toLowerCase())
             {
                 case "dog":
-                    Dog dog = new Dog();//create dog
-                    return dog;
+                    pet = new Dog();//create dog
+                    return pet;
 
 
 
                 case "cat":
-                    Cat cat = new Cat();//creat cat
-                    return cat;
+                    pet = new Cat();//creat cat
+                    return pet;
 
 
 
                 case "snake":
-                    Snake snake = new Snake();
-                    return snake;
+                    pet = new Snake();
+                    return pet;
 
 
                 default:
-                    Pet pet = new Pet();
+                    pet = new Pet();
                     return pet;
 
             }
