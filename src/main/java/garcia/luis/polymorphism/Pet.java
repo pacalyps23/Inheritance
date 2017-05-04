@@ -36,9 +36,9 @@ public class Pet
         return age;
     }
 
-    public void speak()
+    public  String speak()
     {
-        System.out.println("arrrrrrrr");
+        return "arrrrrrrr";
     }
 
 }

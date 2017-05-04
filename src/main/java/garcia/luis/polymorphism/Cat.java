@@ -1,11 +1,9 @@
 package garcia.luis.polymorphism;
 
-import garcia.luis.bankaccountmanager.SavingsAccount;
-
 /**
  * Created by luisgarcia on 5/3/17.
  */
-public class Dog extends Pet
+public class Cat extends Pet
 {
     private String name;
     private int age;
@@ -13,6 +11,7 @@ public class Dog extends Pet
     @Override
     public String speak()
     {
-        return  "woof woof";
+        return "meow meow";
     }
+
 }
