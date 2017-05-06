@@ -6,7 +6,7 @@ import java.util.*;
  * Created by luisgarcia on 5/3/17.
  */
 public class UserInput
-{ // class user input
+{
 
     ArrayList<Pet> petList = new ArrayList<Pet>();
 
