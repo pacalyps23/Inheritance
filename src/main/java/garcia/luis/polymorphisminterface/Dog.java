@@ -1,9 +1,11 @@
 package garcia.luis.polymorphisminterface;
 
+import garcia.luis.polymorphism.Pet;
+
 /**
  * Created by luisgarcia on 5/6/17.
  */
-public class Dog implements Pet
+public class Dog extends Pets
 {
     private String name;
     private int age;

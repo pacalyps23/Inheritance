@@ -3,7 +3,7 @@ package garcia.luis.polymorphisminterface;
 /**
  * Created by luisgarcia on 5/6/17.
  */
-public class Cat implements Pet
+public class Cat extends Pets
 {
     private String name;
     private int age;
@@ -40,4 +40,6 @@ public class Cat implements Pet
     {
         return "meow meow";
     }
+
+
 }

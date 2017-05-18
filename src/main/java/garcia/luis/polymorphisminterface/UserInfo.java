@@ -6,7 +6,7 @@ import java.util.*;
  */
 public class UserInfo
 {
-    ArrayList<Pet> petList = new ArrayList<Pet>();
+    ArrayList<Pets> petList = new ArrayList<Pets>();
 
     private int num;
     private String petType;
@@ -27,9 +27,9 @@ public class UserInfo
         }
     }
 
-    public Pet matchPet (String petType) //create pets to add
+    public Pets matchPet (String petType) //create pets to add
     {
-        Pet pet;
+        Pets pet;
         switch (petType.toLowerCase())
         {
             case "dog":

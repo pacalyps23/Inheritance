@@ -18,12 +18,12 @@ public class UserInput
 
     public void createPets()
     {
-        num = Integer.parseInt(getSringFromUser("How many pets do you have?")); //ask question
+        num = Integer.parseInt(getStringFromUser("How many pets do you have?")); //ask question
 
         for (int i = 0; i < num; i++)
         {
-            petType = getSringFromUser("What kind of pet is pet #" + (i+1) + "?");//save petType input
-            petName = getSringFromUser("What is the name of pet #" + (i+1) + "?");//save name of pet
+            petType = getStringFromUser("What kind of pet is pet #" + (i+1) + "?");//save petType input
+            petName = getStringFromUser("What is the name of pet #" + (i+1) + "?");//save name of pet
             petList.add(matchPet(petType));//add pet from list
             petList.get(i).setName(petName);//add name for pet
         }
@@ -59,7 +59,7 @@ public class UserInput
 
         }
 
-        public String getSringFromUser(String input)
+        public String getStringFromUser(String input)
         {
             Scanner in = new Scanner(System.in);
             System.out.println(input);

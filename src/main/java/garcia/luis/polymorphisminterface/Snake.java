@@ -3,7 +3,7 @@ package garcia.luis.polymorphisminterface;
 /**
  * Created by luisgarcia on 5/6/17.
  */
-public class Snake implements Pet
+public class Snake extends Pets
 {
     private String name;
     private int age;
@@ -40,4 +40,5 @@ public class Snake implements Pet
     {
         return "zzzzzzzzzzzzzz";
     }
+
 }
